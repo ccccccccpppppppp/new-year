@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+}
+
+body{
+	background-image: url('img/новогодний пепе.png');
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div#wrapper{
+	background-image: url('img/flake (1).png');
+	height: 100%;
+	animation: flake 20s linear infinite;
+}
+
+@keyframes flake{
+	0% {background-position:0px 0px,200px 0px, 400px 0px;}
+	100%{background-position: 500px 1000px,700px 400px,1000px 300px}
+}
